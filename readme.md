@@ -2,7 +2,7 @@
 
 ## What is it?
 
-These are templates for the KiCAD BOM Wizard plugin. They allow you the generate the bill of materials needed for your PCBs designed with KiCAD.
+These are templates for the KiCAD BOM Wizard plugin. They allow you to generate the bill of materials needed for your PCBs designed with KiCAD.
 
 - The *Mustache* folder contains a html template utilizing the mustache javascript library
 - The *DokuWiki* folder contains a text template for inserting the BOM in DokuWiki instances or on GitHub
