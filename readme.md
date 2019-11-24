@@ -7,7 +7,28 @@ These are templates for the KiCAD BOM Wizard plugin. They allow you the generate
 - The *Mustache* folder contains a html template utilizing the mustache javascript library
 - The *DokuWiki* folder contains a text template for inserting the BOM in DokuWiki instances or on GitHub
 
-## How to use
+## How does it looks like?
+
+**The DokuWiki version looks like this:**
+| | |
+|-|-|
+|Total Number of Parts    |    36|
+|Total Unique Parts    |    22|
+
+|    Ref    |    Quantity    |    Value    |Footprint    |Fields    |
+|-|-|-|-|-|
+|    BZ1     |    1    |    Buzzer    |Buzzer_Beeper:MagneticBuzzer_Kingstate_KCG0601    |    |
+|    C1 C2     |    2    |    22pF    |Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |    |
+|    C3     |    1    |    0.33uF    |Capacitor_THT:CP_Radial_D4.0mm_P2.00mm    |    |
+|    C4     |    1    |    0.1uF    |Capacitor_THT:CP_Radial_D4.0mm_P2.00mm    |    |
+
+---
+
+**The mustache version looks like this:**
+
+![mustache.png](https://github.com/morcibacsi/kicad_bom_wizard_templates/raw/master/screenshots/mustache.png)
+
+## How to use?
 1. Install node.js
 2. Install the KiCad BOM Wizard plugin
 
