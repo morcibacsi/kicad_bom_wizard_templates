@@ -10,6 +10,7 @@ These are templates for the KiCAD BOM Wizard plugin. They allow you the generate
 ## How does it looks like?
 
 **The DokuWiki version looks like this:**
+
 | | |
 |-|-|
 |Total Number of Parts    |    36|
